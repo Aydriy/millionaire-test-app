@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/millionaire-app/static/css/main.1268950d.css",
+    "main.js": "/millionaire-app/static/js/main.39b37231.js",
+    "static/js/787.0e3789cb.chunk.js": "/millionaire-app/static/js/787.0e3789cb.chunk.js",
+    "index.html": "/millionaire-app/index.html",
+    "main.1268950d.css.map": "/millionaire-app/static/css/main.1268950d.css.map",
+    "main.39b37231.js.map": "/millionaire-app/static/js/main.39b37231.js.map",
+    "787.0e3789cb.chunk.js.map": "/millionaire-app/static/js/787.0e3789cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1268950d.css",
+    "static/js/main.39b37231.js"
+  ]
+}
