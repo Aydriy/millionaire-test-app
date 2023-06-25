@@ -1,0 +1,18 @@
+export enum DateFormatEnum {
+  DATE_WITH_TIME_WITH_SLASH = 'dd/MM/yy/HH/mm',
+  DATE_WITH_TIME_WITH_DOT = 'dd.MM.yy HH:mm',
+  DATE_MONTH_WITH_DOT = 'dd.MM',
+  DATE_WITH_TIME_DAY_MONTH_YEAR = 'dd.MM.yyyy HH:mm',
+  DATE_WITH_TIME_FIRST_DAY_MONTH_YEAR = 'HH:mm dd.MM.yyyy',
+  ONLY_DATE_WITH_DOT = 'dd.MM.yyyy',
+  ONLY_DATE_WITH_LINE = 'dd-MM-yyyy',
+  ONLY_DATE_WITH_DOT_SHORT_YEAR = 'dd.MM.yy',
+  ONLY_YEAR = 'yyyy',
+  YEAR_MONTH_DAY = 'yyyy-MM-dd',
+  DAY_MONTH = 'dd.MMMM',
+  DATE_WITH_SLASH_SHORT_YEAR = 'dd/MM/yy',
+  ONLY_TIME = 'HH:mm',
+  MONTH_FULL_YEAR_SHORT = 'MMMM yy',
+  DAY_MONTH_TIME = 'dd.MM, HH:mm',
+  DAY_MONTH_FULL_YEAR_FULL = 'dd MMMM yyyy',
+}

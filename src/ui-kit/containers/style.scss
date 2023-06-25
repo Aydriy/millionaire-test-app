@@ -1,0 +1,22 @@
+@import '../../assets/style/breackpoints';
+
+.container {
+  margin: 0 40px;
+  height: 100vh;
+  position: relative;
+
+  @include breakpoint(sm) {
+    max-width: 480px;
+    margin: 0 16px;
+  }
+
+  @include breakpoint(md) {
+    max-width: 768px;
+    margin: 0 16px;
+  }
+
+  @include breakpoint(xl) {
+    max-width: 1024px;
+    margin: 0 40px;
+  }
+}

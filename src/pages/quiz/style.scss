@@ -1,0 +1,82 @@
+@import '../../assets/style/colors';
+@import '../../assets/style/breackpoints';
+
+.quiz {
+  display: flex;
+  background-color: $athens_gray;
+}
+.sidebar {
+  background-color: $white-color;
+  max-width: 376px;
+  width: 100%;
+  height: 100vh;
+  transition: 0.2s;
+
+  @include breakpoint(md, sm) {
+    display: none;
+    transition: transform 0.2s ease-in-out;
+    transform: translateX(100%);
+  }
+}
+
+.sidebar_wrapper {
+  width: calc(100% - 70px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 15px;
+}
+
+.sidebar-visible {
+  @include breakpoint(md, sm) {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    max-width: 100%;
+    transform: translateX(0);
+    transition: transform 0.2s ease-in-out;
+    gap: 15px;
+  }
+}
+
+.quiz-burger-menu-wrapper {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  cursor: pointer;
+  z-index: 20;
+
+  @include breakpoint(lg, xl, xxl) {
+    display: none;
+  }
+}
+
+.quiz_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.quiz_wrapper-questions {
+  display: flex;
+  justify-content: center;
+}
+
+.quiz_wrapper-questions-container {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.quiz_wrapper-questions .button-quiz {
+  @include breakpoint(xl, xxl) {
+    flex-basis: 45%;
+  }
+}
