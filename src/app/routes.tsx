@@ -5,7 +5,7 @@ import { ResultPage } from '../pages/result/result.page';
 
 export const routes = createBrowserRouter([
   {
-    path: '/millionaire-app',
+    path: '/millionaire-test-app',
     element: <AppLayout />,
     children: [
       { path: '', element: <WelcomePage /> },
